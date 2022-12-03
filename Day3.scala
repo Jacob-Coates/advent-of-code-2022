@@ -1,5 +1,5 @@
 import scala.io.Source
-object Third {
+object Day3 {
     def cost(c: Char) = c - (if (c.isUpper)'A' - 27 else 'a' - 1)
 
     def calc_cost(line: String) = get_letters(line).map(cost).sum
