@@ -1,6 +1,6 @@
 import scala.io.Source
 object Day6 {
-// Move stacks of n from each value
+
     def main(args: Array[String]) = {
         val file = Source.fromFile("day6.txt")
         val line = try file.mkString finally file.close()
